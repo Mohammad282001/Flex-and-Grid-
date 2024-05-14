@@ -1,67 +1,65 @@
-.parent{
-    max-width: 100% ;
-    height: 800px;
+body{
     display: grid;
-    color: aliceblue;
-grid-template-rows:300px repeat();
     text-align: center;
-}
+    grid-template-rows: repeat(10,90%) ;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 4rem;
 
+
+
+
+}
+div{
+    color: aliceblue;
+    align-content: center;
+}
 .section1{
     background-color: rgb(85, 236, 67);
-    height: 20%;
-
-}
+    grid-column: 3 span;
 
 
-.middleContainer{
-    display: grid;
-    grid-template-columns: 30% 70% ;
-    
-
-}
-
-.container1{
-    display: grid;
-    grid-template-rows: 40% 60%;
 }
 .section2{
     background-color: rgb(203, 187, 219);
+    /* grid-area: 2/1/4/2; */
+    grid-row: 2 span ;
+    
+
+
 }
 .section3{
     background-color: rgb(57, 73, 32);
+    grid-row: 4/7;
+
 }
 
-.container2{
-    display: grid;
-    grid-template-rows: 70% 30%;
-}
 .mainContent{
     background-color: rgb(177, 160, 104);
+    grid-area: 2/2/6/4;
 
 }
 .extraContent{
     background-color: rgb(166, 176, 149);
+    grid-column: 2/4;
 }
 
-
-.container3{
-        display: grid;
-    grid-template-columns: 75% 25% ;
-}
 
 .relatedImage{
     background-color: rgb(69, 127, 177);
-
-
+    grid-area: 7/1/9/3;
 }
 
 .relatedPost{
     background-color: blue;
+    grid-row: 2 span;
+
 
 }
 
 .footer{
     background-color: blueviolet;
+    grid-row: 9;
+    grid-column: 1/4;
 
 }
