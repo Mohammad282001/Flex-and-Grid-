@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(201, 253, 254);
+}
+
+ul{
+    list-style-type: none;
+}
+img{
+    max-width: 4rem;
+}
+
+.container{
+    background-color: rgb(207, 210, 147);
+    width: 20rem;
+    height: 25rem;
+    border-radius: 20px;
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 50px 1fr; 
+    padding: 10px;
+}
+
+/* .section{
+    display: flex;
+} */
+#user1{
+    grid-row: 1/2;
+}
+ul{
+    grid-column: 2/4;
+    border-bottom: solid black 1px ;
+    padding-bottom: 20px;
+
+}
+li{
+    color: rgb(81, 88, 109);
+}
+
+.userName{
+    color: black;
+}
+#user2{
+    grid-row: 2/3; 
+    grid-column: 1/2;
+}
+#user3{
+    grid-row: 3/4;
+}
+#user4{
+    grid-row: 4/5;
+}
