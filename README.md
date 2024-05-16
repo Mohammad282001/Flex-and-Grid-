@@ -1,7 +1,7 @@
 # Grid game:-
 ![alt text](image.png)
 
-#Flex Game:-
+# Flex Game:-
 ![alt text](image-1.png)
 
 # EX1 >> using grid to built a website prototype by sections 
